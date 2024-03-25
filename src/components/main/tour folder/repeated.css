@@ -1,0 +1,61 @@
+.tour-div{
+    padding: 0.2em 0em;
+    width: 100%;
+    text-align: center;
+}
+.iterating-t{
+ font-size: 5em;
+ text-transform: uppercase;
+ margin: 0.2em 0em 0.3em 0em;
+}
+.iterating-p{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2em;
+}
+@media screen and (max-width : 1024px) {
+  .iterating-t{
+    font-size: 4rem;
+  }
+  .iterating-p{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width : 768px) {
+  .iterating-t{
+    font-size: 4rem;
+  }
+  .iterating-p{
+    font-size:1rem;
+  }
+}
+
+
+@media screen and (max-width : 680px) {
+  .iterating-t{
+    font-size: 4rem;
+  }
+  .iterating-p{
+    font-size:0.9rem;
+  }
+}
+
+@media screen and (max-width : 650px) {
+  .iterating-t{
+    font-size: 4rem;
+  }
+  .iterating-p{
+    font-size:0.85rem;
+  }
+}
+
+
+@media screen and (max-width : 520px) {
+  .iterating-t{
+    font-size: 3rem;
+  }
+  .iterating-p{
+    font-size:0.8rem;
+  }
+}

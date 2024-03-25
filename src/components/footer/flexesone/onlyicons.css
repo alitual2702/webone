@@ -1,0 +1,14 @@
+.media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.fa-brands{
+    color: #303030;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 0.6em;
+    font-size: 1.1em;
+    border-radius: 50px;
+}

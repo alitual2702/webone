@@ -1,0 +1,77 @@
+#title-cap{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top:36%;
+    left:5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0em;
+    flex-direction: column;
+    /* width:38%; */
+}
+.title-head{
+    font-size: 5em;
+    font-weight: 600;
+}
+.title-discrip{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.registration{
+    
+  font-family: 'Oswald', sans-serif;
+    padding: 0.3em 2em;
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ff7b00;
+    border: none;
+    border-radius: 0.2em;
+    color: white;
+    outline: none;
+}
+@media screen and (max-width : 768px) {
+    .title-head{
+      font-size: 3.5rem;
+    }
+    .title-discrip{
+     font-size: 1.2rem;
+    }
+    .registration{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width : 650px) {
+    .title-head{
+        font-size: 3.2rem;
+      }
+      .title-discrip{
+       font-size: 1.1rem;
+      }
+      .registration{
+          margin-top: 1rem;
+          font-size: 1.2rem;
+      }
+      #title-cap{
+        left:5%;
+      }
+      
+}
+@media screen and (max-width : 520px) {
+    .title-head{
+        font-size: 3rem;
+      }
+      .title-discrip{
+       font-size: 1rem;
+      }
+      .registration{
+          margin-top: 1rem;
+          font-size: 1.2rem;
+      }
+      #title-cap{
+        left: 4%;
+      }
+}
