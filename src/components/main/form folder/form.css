@@ -25,7 +25,7 @@ font-size: 1.3em;
 text-transform: uppercase;
 width: 14.5%;
 }
-@media screen and (max-width : 950px) {
+@media screen and (max-width : 1024px) {
     #email{
         width: 45%;
         padding-left: 1rem;
@@ -34,7 +34,7 @@ width: 14.5%;
         width: 22%;
     }
 }
-@media screen and (max-width : 680px) {
+@media screen and (max-width : 768px) {
     #email{
        width: 255px;
        height: 2.3rem;
@@ -48,33 +48,33 @@ width: 14.5%;
        width: 140px;
        font-size: 1.1rem;
     }
-}@media screen and (max-width : 600px) {
+}@media screen and (max-width : 480px) {
     #email{
        width: 255px;
        height: 2.3rem;
-       font-size: 1.1rem;
+       font-size: 1rem;
     }
     ::placeholder{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     #subscribe{
        height: 2.3rem;
        width: 140px;
-       font-size: 1.1rem;
+       font-size: 1rem;
     }
 }
-@media screen and (max-width : 520px) {
+@media screen and (max-width : 320px) {
     #email{
-       width: 255px;
-       height: 2.3rem;
-       font-size: 1.1rem;
+       width: 180px;
+       height: 2rem;
+       font-size: 0.8rem;
     }
     ::placeholder{
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
     #subscribe{
-       height: 2.3rem;
-       width: 140px;
-       font-size: 1.1rem;
+       height: 2rem;
+       width: 80px;
+       font-size: 0.6rem;
     }
 }

@@ -20,7 +20,7 @@
     color: #ff7b00;
 }
 
-@media screen and (max-width : 1280px) {
+@media screen and (max-width : 1200px) {
     .herb-dis{
         font-size: 1.7rem;
     }
@@ -33,48 +33,31 @@
         word-wrap: break-word;
     }
 }
-@media screen and (max-width : 880px) {
-    .herb-dis{
-        font-size: 1.3rem;
-        word-wrap: break-word;
-    }
-}
 @media screen and (max-width : 768px) {
     .herb-dis{
         font-size: 1.2rem;
     }
  }
- @media screen and (max-width : 680px) {
+ @media screen and (max-width : 480px) {
     .herb-dis{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .herbert-name{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .herbed{
         height: 400px;
        }
  }
- @media screen and (max-width : 600px) {
-    .herb-dis{
-        font-size: 0.8rem;
-    }
-    .herbert-name{
-        font-size: 2rem;
-    }
-    .herbed{
-        height: 400px;
-       }
- }
-@media screen and (max-width : 520px) {
+@media screen and (max-width : 320px) {
    .herbed{
     height: 300px;
    }
    .herb-dis{
-    font-size: 0.8rem;
+    font-size: 0.4rem;
     word-wrap: break-word;
 }
 .herbert-name{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 }

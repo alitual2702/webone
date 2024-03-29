@@ -44,34 +44,34 @@
         font-size: 1.2rem;
     }
 }
-@media screen and (max-width : 650px) {
+@media screen and (max-width : 480px) {
     .title-head{
-        font-size: 3.2rem;
+        font-size: 2.5rem;
       }
       .title-discrip{
-       font-size: 1.1rem;
+       font-size: 0.75rem;
       }
       .registration{
           margin-top: 1rem;
-          font-size: 1.2rem;
+          font-size: 1.1rem;
       }
       #title-cap{
         left:5%;
       }
       
 }
-@media screen and (max-width : 520px) {
+@media screen and (max-width : 320px) {
     .title-head{
-        font-size: 3rem;
+        font-size: 1.8rem;
       }
       .title-discrip{
-       font-size: 1rem;
+       font-size: 0.56rem;
       }
       .registration{
           margin-top: 1rem;
-          font-size: 1.2rem;
+          font-size: 0.8rem;
       }
       #title-cap{
-        left: 4%;
+        left: 7%;
       }
 }

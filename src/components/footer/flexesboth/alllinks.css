@@ -15,7 +15,7 @@
     font-size: 1.2em;
     margin-top: 0.6em;
 }
-@media screen and (max-width : 950px) {
+@media screen and (max-width : 1024px) {
     .l-c{
      font-size: 1rem;
     }
@@ -23,13 +23,19 @@
      font-size: 1.5rem;
     }
 }
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 768px) {
     .links-flex-footer{
         width: 100%;
     }
 }
-@media screen and (max-width : 520px) {
+@media screen and (max-width : 320px) {
     .links-flex-footer{
         width: 100%;
     }
+    .l-c{
+        font-size: 0.5rem;
+       }
+       .l-tag{
+        font-size: 1rem;
+       }
 }

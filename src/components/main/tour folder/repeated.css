@@ -32,30 +32,24 @@
 }
 
 
-@media screen and (max-width : 680px) {
-  .iterating-t{
-    font-size: 4rem;
-  }
-  .iterating-p{
-    font-size:0.9rem;
-  }
-}
-
-@media screen and (max-width : 650px) {
-  .iterating-t{
-    font-size: 4rem;
-  }
-  .iterating-p{
-    font-size:0.85rem;
-  }
-}
-
-
-@media screen and (max-width : 520px) {
+@media screen and (max-width : 480px) {
   .iterating-t{
     font-size: 3rem;
   }
   .iterating-p{
-    font-size:0.8rem;
+    font-size:0.7rem;
+  }
+}
+
+
+@media screen and (max-width : 320px) {
+  .tour-div{
+    padding-top: 1rem;
+  }
+  .iterating-t{
+    font-size: 1rem;
+  }
+  .iterating-p{
+    font-size:0.35rem;
   }
 }
