@@ -1,48 +1,74 @@
-.parent-flex-left{
-    font-family: 'Montserrat', sans-serif;
-    width: 35%;
-    display: flex;
-    align-items: self-start;
-    gap: 2em;
-    justify-content: space-between;
-    margin-right: 10em;
-    flex-direction: column;
+.parent-flex-left {
+  font-family: "Montserrat", sans-serif;
+  width: 35%;
+  display: flex;
+  align-items: self-start;
+  gap: 2em;
+  justify-content: space-between;
+  margin-right: 10em;
+  flex-direction: column;
 }
-.f-tag{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
-    text-transform: uppercase;
+.f-tag {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-.f-dis{
-    font-size: 1.15em;
+.f-dis {
+  font-size: 1.15em;
 }
-@media screen and (max-width : 1024px) {
-    .f-tag{
-        font-size: 2rem;
-    }
-    .f-dis{
-        font-size: 0.9rem;
-    }
-    .parent-flex-left{
-        margin-right: 1rem;
-    }
+@media screen and (max-width: 1024px) {
+  .f-tag {
+    font-size: 2rem;
+  }
+  .f-dis {
+    font-size: 0.9rem;
+  }
+  .parent-flex-left {
+    margin-right: 1rem;
+  }
 }
-@media screen and (max-width : 480px) {
-    .parent-flex-left{
-        width: 100%;
-    }
+@media screen and (max-width: 480px) {
+  .parent-flex-left {
+    width: 100%;
+  }
 }
-@media screen and (max-width : 320px) {
-    .f-tag{
-        font-size: 1rem;
-    }
-    .f-dis{
-        font-size: 0.5rem;
-        margin-top: -1.3rem;
-    }
-    .parent-flex-left{
-        justify-content: space-evenly;
-        width: 80%;
-    }
+@media screen and (max-width: 425px) {
+  .f-tag {
+    font-size: 1rem;
+  }
+  .f-dis {
+    font-size: 0.5rem;
+    margin-top: -1.3rem;
+  }
+  .parent-flex-left {
+    justify-content: space-evenly;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .f-tag {
+    font-size: 1rem;
+  }
+  .f-dis {
+    font-size: 0.5rem;
+    margin-top: -1.3rem;
+  }
+  .parent-flex-left {
+    justify-content: space-evenly;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .f-tag {
+    font-size: 1rem;
+  }
+  .f-dis {
+    font-size: 0.5rem;
+    margin-top: -1.3rem;
+  }
+  .parent-flex-left {
+    justify-content: space-evenly;
+    width: 80%;
+  }
 }

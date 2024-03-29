@@ -1,4 +1,4 @@
-.amaze-content{
+.amaze-content {
   position: relative;
   background-color: #ff7b00;
   width: 50%;
@@ -8,81 +8,103 @@
   justify-content: center;
 }
 .inner-amaze {
-  padding: 0 3.5rem; 
+  padding: 0 3.5rem;
   display: flex;
   justify-content: center;
   gap: 1.5em;
   flex-direction: column;
 }
-.dance-imp{
-  height : 100% ; width:50% ; object-Fit : cover;
+.dance-imp {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
 }
-.amaze-title{
-    font-size: 4em;
+.amaze-title {
+  font-size: 4em;
 }
-.amaze-para{
-font-size: 2.4em;
+.amaze-para {
+  font-size: 2.4em;
 }
-.amaze-read{
-    font-family: 'Oswald', sans-serif;
-    padding: 0.5em 1em;
-    font-size: 1.8em;
-    width: 65%;
-    font-weight: 300;
-    text-transform: uppercase;
-    background-color: #303030;
-    border: none;
-    border-radius: 0.2em;
-    color: white;
-    outline: none;
+.amaze-read {
+  font-family: "Oswald", sans-serif;
+  padding: 0.5em 1em;
+  font-size: 1.8em;
+  width: 65%;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: #303030;
+  border: none;
+  border-radius: 0.2em;
+  color: white;
+  outline: none;
 }
-@media screen and (max-width : 1024px) {
-  .amaze-title{
+@media screen and (max-width: 1024px) {
+  .amaze-title {
     font-size: 3rem;
   }
-  .amaze-para{
+  .amaze-para {
     font-size: 2.1rem;
   }
-  .amaze-read{
+  .amaze-read {
     font-size: 1.4rem;
   }
 }
 
-@media screen and (max-width : 768px) {
-  .amaze-title{
+@media screen and (max-width: 768px) {
+  .amaze-title {
     font-size: 2.5rem;
   }
-  .amaze-para{
+  .amaze-para {
     font-size: 1.9rem;
   }
-  .amaze-read{
+  .amaze-read {
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width : 480px) {
-  .inner-amaze{
+@media screen and (max-width: 480px) {
+  .inner-amaze {
     padding: 0 1.8rem;
   }
-  .amaze-title{
+  .amaze-title {
     font-size: 1.7rem;
   }
-  .amaze-para{
+  .amaze-para {
     font-size: 1rem;
   }
-  .amaze-read{
+  .amaze-read {
     font-size: 0.8rem;
   }
 }
-
-@media screen and (max-width : 320px) {
-  .amaze-title{
+@media screen and (max-width: 425px) {
+  .amaze-title {
     font-size: 1rem;
   }
-  .amaze-para{
+  .amaze-para {
     font-size: 0.5rem;
   }
-  .amaze-read{
+  .amaze-read {
     font-size: 0.6rem;
   }
-
+}
+@media screen and (max-width: 375px) {
+  .amaze-title {
+    font-size: 1rem;
+  }
+  .amaze-para {
+    font-size: 0.5rem;
+  }
+  .amaze-read {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .amaze-title {
+    font-size: 1rem;
+  }
+  .amaze-para {
+    font-size: 0.5rem;
+  }
+  .amaze-read {
+    font-size: 0.6rem;
+  }
 }

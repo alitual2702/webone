@@ -1,72 +1,101 @@
-.olampic-div{
-    background-color: #303030;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    width: 25%;
-    margin-bottom: 1.5em;
-    margin: 1.5em 0 3em 0;
+.olampic-div {
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom: 1.5em;
+  margin: 1.5em 0 3em 0;
 }
-.olampic-images{
+.olampic-images {
   width: 100%;
 }
-.olampic-country{
+.olampic-country {
   font-weight: 400;
   letter-spacing: 0.05em;
-   font-size: 2.4em;
-   text-transform: uppercase;
-   margin: 0.3em 0em 0em 0em;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  margin: 0.3em 0em 0em 0em;
 }
-.olampic-discription{
-    font-size: 1.35em;
- margin: 0.3em 0 1em 0;
+.olampic-discription {
+  font-size: 1.35em;
+  margin: 0.3em 0 1em 0;
 }
-@media screen and (max-width : 1024px) {
-  .olampic-country{
+@media screen and (max-width: 1024px) {
+  .olampic-country {
     font-size: 1.9rem;
   }
-  .olampic-discription{
+  .olampic-discription {
     font-size: 1.15rem;
   }
 }
-@media screen and (max-width : 768px) {
-  .olampic-div{
+@media screen and (max-width: 768px) {
+  .olampic-div {
     width: 60%;
     border-radius: 10px;
   }
-  .olampic-images{
+  .olampic-images {
     border-radius: 10px 10px 0 0;
   }
-  .olampic-country{
+  .olampic-country {
     font-size: 2.5rem;
   }
-  .olampic-discription{
+  .olampic-discription {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width : 480px) {
-
-  .olampic-country{
+@media screen and (max-width: 480px) {
+  .olampic-country {
     font-size: 2.2rem;
   }
-  .olampic-discription{
+  .olampic-discription {
     font-size: 1.1rem;
   }
 }
-@media screen and (max-width : 320px) {
-  .olampic-div{
+@media screen and (max-width: 425px) {
+  .olampic-div {
     border-radius: 5px;
     width: 75%;
   }
-  .olampic-images{
+  .olampic-images {
     border-radius: 5px 5px 0 0;
   }
-  .olampic-country{
+  .olampic-country {
     font-size: 1.5rem;
   }
-  .olampic-discription{
+  .olampic-discription {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .olampic-div {
+    border-radius: 5px;
+    width: 75%;
+  }
+  .olampic-images {
+    border-radius: 5px 5px 0 0;
+  }
+  .olampic-country {
+    font-size: 1.5rem;
+  }
+  .olampic-discription {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .olampic-div {
+    border-radius: 5px;
+    width: 75%;
+  }
+  .olampic-images {
+    border-radius: 5px 5px 0 0;
+  }
+  .olampic-country {
+    font-size: 1.5rem;
+  }
+  .olampic-discription {
     font-size: 0.7rem;
   }
 }

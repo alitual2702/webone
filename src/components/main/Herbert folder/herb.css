@@ -1,63 +1,86 @@
-.herbed{
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    width: 100%;
-    height: 700px;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.herbed {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.herb-dis{
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 2em;
+.herb-dis {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
 }
-.herbert-name{
-    font-size: 3em;
-    text-transform: uppercase;
-    color: #ff7b00;
+.herbert-name {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #ff7b00;
 }
 
-@media screen and (max-width : 1200px) {
-    .herb-dis{
-        font-size: 1.7rem;
-    }
- }
-
-
-@media screen and (max-width : 1024px) {
-    .herb-dis{
-        font-size: 1.5rem;
-        word-wrap: break-word;
-    }
+@media screen and (max-width: 1200px) {
+  .herb-dis {
+    font-size: 1.7rem;
+  }
 }
-@media screen and (max-width : 768px) {
-    .herb-dis{
-        font-size: 1.2rem;
-    }
- }
- @media screen and (max-width : 480px) {
-    .herb-dis{
-        font-size: 0.7rem;
-    }
-    .herbert-name{
-        font-size: 1.8rem;
-    }
-    .herbed{
-        height: 400px;
-       }
- }
-@media screen and (max-width : 320px) {
-   .herbed{
+
+@media screen and (max-width: 1024px) {
+  .herb-dis {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+  }
+}
+@media screen and (max-width: 768px) {
+  .herb-dis {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .herb-dis {
+    font-size: 0.7rem;
+  }
+  .herbert-name {
+    font-size: 1.8rem;
+  }
+  .herbed {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .herbed {
     height: 300px;
-   }
-   .herb-dis{
+  }
+  .herb-dis {
     font-size: 0.4rem;
     word-wrap: break-word;
-}
-.herbert-name{
+  }
+  .herbert-name {
     font-size: 1rem;
+  }
 }
+@media screen and (max-width: 375px) {
+  .herbed {
+    height: 300px;
+  }
+  .herb-dis {
+    font-size: 0.4rem;
+    word-wrap: break-word;
+  }
+  .herbert-name {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .herbed {
+    height: 300px;
+  }
+  .herb-dis {
+    font-size: 0.4rem;
+    word-wrap: break-word;
+  }
+  .herbert-name {
+    font-size: 1rem;
+  }
 }

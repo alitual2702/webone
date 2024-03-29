@@ -1,40 +1,56 @@
-.stats-content{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.stats-content {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.stats-rec{
-    font-size: 3.5em;
+.stats-rec {
+  font-size: 3.5em;
 }
-.stats-det{
-    margin-top: 0em;
-    font-size: 2.5em;
-    font-weight: 300;
+.stats-det {
+  margin-top: 0em;
+  font-size: 2.5em;
+  font-weight: 300;
 }
-@media screen and (max-width : 1024px) {
-    .stats-rec{
-     font-size: 2.7rem;
-    }
-    .stats-det{
-      font-size: 1.7rem;
-    }
-}
-@media screen and (max-width : 480px) {
-    .stats-rec{
-        font-size: 2rem;
-       }
-       .stats-det{
-         font-size: 1.2rem;
-       }
+@media screen and (max-width: 1024px) {
+  .stats-rec {
+    font-size: 2.7rem;
   }
-  
-  @media screen and (max-width : 320px) {
-    .stats-rec{
-        font-size: 0.8rem;
-       }
-       .stats-det{
-         font-size: 0.5rem;
-       }
+  .stats-det {
+    font-size: 1.7rem;
   }
+}
+@media screen and (max-width: 480px) {
+  .stats-rec {
+    font-size: 2rem;
+  }
+  .stats-det {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .stats-rec {
+    font-size: 0.8rem;
+  }
+  .stats-det {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .stats-rec {
+    font-size: 0.8rem;
+  }
+  .stats-det {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .stats-rec {
+    font-size: 0.8rem;
+  }
+  .stats-det {
+    font-size: 0.5rem;
+  }
+}

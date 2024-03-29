@@ -31,33 +31,53 @@
   }
 }
 
-@media screen and (max-width : 768px) {
-  .pricing-div{
+@media screen and (max-width: 768px) {
+  .pricing-div {
     width: 50%;
     padding: 2rem 0rem;
   }
-  .cashing{
+  .cashing {
     margin-top: 1rem;
     width: 60%;
   }
 }
-@media screen and (max-width : 480px) {
-  .pricing-div{
+@media screen and (max-width: 480px) {
+  .pricing-div {
     width: 65%;
     padding: 2rem 0rem;
   }
-  .cashing{
+  .cashing {
     margin-top: 1rem;
     width: 65%;
   }
 }
-@media screen and (max-width : 320px) {
- .pricing-div{
-  width: 75%;
-  padding: 1rem 0;
- } 
- .cashing{
-  margin-top: 1rem;
-  width: 85%;
+@media screen and (max-width: 425px) {
+  .pricing-div {
+    width: 75%;
+    padding: 1rem 0;
+  }
+  .cashing {
+    margin-top: 1rem;
+    width: 85%;
+  }
 }
+@media screen and (max-width: 375px) {
+  .pricing-div {
+    width: 75%;
+    padding: 1rem 0;
+  }
+  .cashing {
+    margin-top: 1rem;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .pricing-div {
+    width: 75%;
+    padding: 1rem 0;
+  }
+  .cashing {
+    margin-top: 1rem;
+    width: 85%;
+  }
 }

@@ -1,80 +1,110 @@
-.all-fields{
-width: 100%;
-display: flex;
-margin-top: 2em;
-align-items: center;
-justify-content: center;
-
+.all-fields {
+  width: 100%;
+  display: flex;
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
 }
-#email{ 
- width: 30%;
- padding: 0 0.3em;
- height: 2.4em;
- border-radius: 5px 0px 0px 5px;
- font-size: 1.3em;
- border: none;
- outline: none;
+#email {
+  width: 30%;
+  padding: 0 0.3em;
+  height: 2.4em;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 1.3em;
+  border: none;
+  outline: none;
 }
-#subscribe{
-height: 2.4em;
-border-radius: 0px 5px 5px 0px;
-border: none;
-background-color:#303030;
-color: #fff;
-font-size: 1.3em;
-text-transform: uppercase;
-width: 14.5%;
+#subscribe {
+  height: 2.4em;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  background-color: #303030;
+  color: #fff;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  width: 14.5%;
 }
-@media screen and (max-width : 1024px) {
-    #email{
-        width: 45%;
-        padding-left: 1rem;
-    }
-    #subscribe{
-        width: 22%;
-    }
+@media screen and (max-width: 1024px) {
+  #email {
+    width: 45%;
+    padding-left: 1rem;
+  }
+  #subscribe {
+    width: 22%;
+  }
 }
-@media screen and (max-width : 768px) {
-    #email{
-       width: 255px;
-       height: 2.3rem;
-       font-size: 1.1rem;
-    }
-    ::placeholder{
-        font-size: 1.1rem;
-    }
-    #subscribe{
-       height: 2.3rem;
-       width: 140px;
-       font-size: 1.1rem;
-    }
-}@media screen and (max-width : 480px) {
-    #email{
-       width: 255px;
-       height: 2.3rem;
-       font-size: 1rem;
-    }
-    ::placeholder{
-        font-size: 1rem;
-    }
-    #subscribe{
-       height: 2.3rem;
-       width: 140px;
-       font-size: 1rem;
-    }
+@media screen and (max-width: 768px) {
+  #email {
+    width: 255px;
+    height: 2.3rem;
+    font-size: 1.1rem;
+  }
+  ::placeholder {
+    font-size: 1.1rem;
+  }
+  #subscribe {
+    height: 2.3rem;
+    width: 140px;
+    font-size: 1.1rem;
+  }
 }
-@media screen and (max-width : 320px) {
-    #email{
-       width: 180px;
-       height: 2rem;
-       font-size: 0.8rem;
-    }
-    ::placeholder{
-        font-size: 0.8rem;
-    }
-    #subscribe{
-       height: 2rem;
-       width: 80px;
-       font-size: 0.6rem;
-    }
+@media screen and (max-width: 480px) {
+  #email {
+    width: 255px;
+    height: 2.3rem;
+    font-size: 1rem;
+  }
+  ::placeholder {
+    font-size: 1rem;
+  }
+  #subscribe {
+    height: 2.3rem;
+    width: 140px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  #email {
+    width: 180px;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+  #subscribe {
+    height: 2rem;
+    width: 80px;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  #email {
+    width: 180px;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+  #subscribe {
+    height: 2rem;
+    width: 80px;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  #email {
+    width: 180px;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+  #subscribe {
+    height: 2rem;
+    width: 80px;
+    font-size: 0.6rem;
+  }
 }

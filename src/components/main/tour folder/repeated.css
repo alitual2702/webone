@@ -1,55 +1,75 @@
-.tour-div{
-    padding: 0.2em 0em;
-    width: 100%;
-    text-align: center;
+.tour-div {
+  padding: 0.2em 0em;
+  width: 100%;
+  text-align: center;
 }
-.iterating-t{
- font-size: 5em;
- text-transform: uppercase;
- margin: 0.2em 0em 0.3em 0em;
+.iterating-t {
+  font-size: 5em;
+  text-transform: uppercase;
+  margin: 0.2em 0em 0.3em 0em;
 }
-.iterating-p{
-    line-height: 1.5em;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 2em;
+.iterating-p {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2em;
 }
-@media screen and (max-width : 1024px) {
-  .iterating-t{
+@media screen and (max-width: 1024px) {
+  .iterating-t {
     font-size: 4rem;
   }
-  .iterating-p{
+  .iterating-p {
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width : 768px) {
-  .iterating-t{
+@media screen and (max-width: 768px) {
+  .iterating-t {
     font-size: 4rem;
   }
-  .iterating-p{
-    font-size:1rem;
-  }
-}
-
-
-@media screen and (max-width : 480px) {
-  .iterating-t{
-    font-size: 3rem;
-  }
-  .iterating-p{
-    font-size:0.7rem;
-  }
-}
-
-
-@media screen and (max-width : 320px) {
-  .tour-div{
-    padding-top: 1rem;
-  }
-  .iterating-t{
+  .iterating-p {
     font-size: 1rem;
   }
-  .iterating-p{
-    font-size:0.35rem;
+}
+
+@media screen and (max-width: 480px) {
+  .iterating-t {
+    font-size: 3rem;
+  }
+  .iterating-p {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .tour-div {
+    padding-top: 1rem;
+  }
+  .iterating-t {
+    font-size: 1rem;
+  }
+  .iterating-p {
+    font-size: 0.35rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .tour-div {
+    padding-top: 1rem;
+  }
+  .iterating-t {
+    font-size: 1rem;
+  }
+  .iterating-p {
+    font-size: 0.35rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tour-div {
+    padding-top: 1rem;
+  }
+  .iterating-t {
+    font-size: 1rem;
+  }
+  .iterating-p {
+    font-size: 0.35rem;
   }
 }

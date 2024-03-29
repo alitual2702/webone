@@ -10,7 +10,7 @@ const Head = () => {
 
   function winSize() {
     if (window.innerWidth <= 768) {
-      toggled.current.classList.remove("link");
+      toggled.current.classList.add("listed");
      
     }
   }
