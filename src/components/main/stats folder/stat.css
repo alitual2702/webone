@@ -32,25 +32,25 @@
 
 @media screen and (max-width: 425px) {
   .stats-rec {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
   .stats-det {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 375px) {
   .stats-rec {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
   .stats-det {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 320px) {
   .stats-rec {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   .stats-det {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }

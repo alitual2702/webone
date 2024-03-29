@@ -32,10 +32,10 @@
     width: 100%;
   }
   .l-c {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .l-tag {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 375px) {
@@ -43,10 +43,10 @@
     width: 100%;
   }
   .l-c {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .l-tag {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -57,6 +57,6 @@
     font-size: 0.5rem;
   }
   .l-tag {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }

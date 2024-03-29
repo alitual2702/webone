@@ -35,33 +35,33 @@
 }
 @media screen and (max-width: 425px) {
   .f-tag {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .f-dis {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-top: -1.3rem;
   }
   .parent-flex-left {
     justify-content: space-evenly;
-    width: 80%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 375px) {
   .f-tag {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .f-dis {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     margin-top: -1.3rem;
   }
   .parent-flex-left {
     justify-content: space-evenly;
-    width: 80%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
   .f-tag {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .f-dis {
     font-size: 0.5rem;
@@ -69,6 +69,6 @@
   }
   .parent-flex-left {
     justify-content: space-evenly;
-    width: 80%;
+    width: 100%;
   }
 }

@@ -65,32 +65,32 @@
 }
 @media screen and (max-width: 425px) {
   #email {
-    width: 180px;
+    width: 220px;
     height: 2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   ::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #subscribe {
     height: 2rem;
-    width: 80px;
-    font-size: 0.6rem;
+    width: 100px;
+    font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 375px) {
   #email {
-    width: 180px;
+    width: 200px;
     height: 2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   ::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #subscribe {
     height: 2rem;
-    width: 80px;
-    font-size: 0.6rem;
+    width: 90px;
+    font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 320px) {

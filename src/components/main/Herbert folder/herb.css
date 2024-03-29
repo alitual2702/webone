@@ -53,11 +53,11 @@
     height: 300px;
   }
   .herb-dis {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     word-wrap: break-word;
   }
   .herbert-name {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 375px) {
@@ -65,11 +65,11 @@
     height: 300px;
   }
   .herb-dis {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     word-wrap: break-word;
   }
   .herbert-name {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -77,10 +77,10 @@
     height: 300px;
   }
   .herb-dis {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     word-wrap: break-word;
   }
   .herbert-name {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }

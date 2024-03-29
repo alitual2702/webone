@@ -44,10 +44,10 @@
     padding-top: 1rem;
   }
   .iterating-t {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .iterating-p {
-    font-size: 0.35rem;
+    font-size: 0.6rem;
   }
 }
 @media screen and (max-width: 375px) {
@@ -55,10 +55,10 @@
     padding-top: 1rem;
   }
   .iterating-t {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .iterating-p {
-    font-size: 0.35rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -67,9 +67,9 @@
     padding-top: 1rem;
   }
   .iterating-t {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .iterating-p {
-    font-size: 0.35rem;
+    font-size: 0.4rem;
   }
 }

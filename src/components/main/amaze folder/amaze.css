@@ -77,21 +77,21 @@
 }
 @media screen and (max-width: 425px) {
   .amaze-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .amaze-para {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .amaze-read {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 375px) {
   .amaze-title {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .amaze-para {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .amaze-read {
     font-size: 0.6rem;
@@ -99,12 +99,12 @@
 }
 @media screen and (max-width: 320px) {
   .amaze-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .amaze-para {
     font-size: 0.5rem;
   }
   .amaze-read {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 }
