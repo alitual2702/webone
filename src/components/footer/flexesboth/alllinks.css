@@ -27,6 +27,8 @@
     width: 100%;
   }
 }
+
+
 @media screen and (max-width: 425px) {
   .links-flex-footer {
     width: 100%;

@@ -31,16 +31,39 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .pricing-div {
-    width: 50%;
+    width: 60%;
     padding: 2rem 0rem;
   }
   .cashing {
     margin-top: 1rem;
-    width: 60%;
+    width: 80%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .pricing-div {
+    width: 60%;
+    padding: 2rem 0rem;
+  }
+  .cashing {
+    margin-top: 1rem;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pricing-div {
+    width: 65%;
+    padding: 2rem 0rem;
+  }
+  .cashing {
+    margin-top: 1rem;
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .pricing-div {
     width: 65%;

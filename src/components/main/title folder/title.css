@@ -31,6 +31,20 @@
   color: white;
   outline: none;
 }
+
+@media screen and (max-width: 800px) {
+  .title-head {
+    font-size: 3.5rem;
+  }
+  .title-discrip {
+    font-size: 1.2rem;
+  }
+  .registration {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .title-head {
     font-size: 3.5rem;
@@ -41,6 +55,21 @@
   .registration {
     margin-top: 1rem;
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title-head {
+    font-size: 2.8rem;
+  }
+  .title-discrip {
+    font-size: 1rem;
+  }
+  .registration {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  #title-cap {
+    left: 5%;
   }
 }
 @media screen and (max-width: 480px) {

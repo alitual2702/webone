@@ -7,7 +7,7 @@
 }
 #email {
   width: 30%;
-  padding: 0 0.3em;
+  padding: 0 0.5em;
   height: 2.4em;
   border-radius: 5px 0px 0px 5px;
   font-size: 1.3em;
@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 768px) {
   #email {
-    width: 255px;
+    width: 280px;
     height: 2.3rem;
     font-size: 1.1rem;
   }
@@ -45,7 +45,7 @@
   #subscribe {
     height: 2.3rem;
     width: 140px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 480px) {

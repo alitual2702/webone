@@ -23,6 +23,9 @@
   font-size: 1.35em;
   margin: 0.3em 0 1em 0;
 }
+
+
+
 @media screen and (max-width: 1024px) {
   .olampic-country {
     font-size: 1.9rem;
@@ -31,6 +34,23 @@
     font-size: 1.15rem;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .olampic-div {
+    width: 60%;
+    border-radius: 10px;
+  }
+  .olampic-images {
+    border-radius: 10px 10px 0 0;
+  }
+  .olampic-country {
+    font-size: 2.5rem;
+  }
+  .olampic-discription {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .olampic-div {
     width: 60%;
@@ -44,6 +64,14 @@
   }
   .olampic-discription {
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .olampic-country {
+    font-size: 2.4rem;
+  }
+  .olampic-discription {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 480px) {
