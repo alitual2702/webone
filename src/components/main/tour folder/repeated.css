@@ -39,27 +39,11 @@
     font-size: 3rem;
   }
   .iterating-p {
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .iterating-p {
     font-size: 0.7rem;
   }
 }
-@media screen and (max-width: 425px) {
-  .tour-div {
-    padding-top: 1rem;
-  }
-  .iterating-t {
-    font-size: 2rem;
-  }
-  .iterating-p {
-    font-size: 0.6rem;
-  }
-}
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 480px) {
   .tour-div {
     padding-top: 1rem;
   }
