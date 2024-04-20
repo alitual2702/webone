@@ -16,10 +16,10 @@
 }
 @media screen and (max-width: 1024px) {
   .iterating-t {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .iterating-p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -34,19 +34,16 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .iterating-t {
-    font-size: 3.2rem;
-  }
-  .iterating-p {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
   .iterating-t {
     font-size: 3rem;
   }
+  .iterating-p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .iterating-p {
     font-size: 0.7rem;
   }
@@ -71,17 +68,5 @@
   }
   .iterating-p {
     font-size: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .tour-div {
-    padding-top: 1rem;
-  }
-  .iterating-t {
-    font-size: 2rem;
-  }
-  .iterating-p {
-    font-size: 0.4rem;
   }
 }

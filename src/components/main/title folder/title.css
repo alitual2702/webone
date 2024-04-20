@@ -1,14 +1,11 @@
 #title-cap {
-  position: relative;
   font-family: "Montserrat", sans-serif;
-  top: 36%;
-  left: 5%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 0em;
   flex-direction: column;
-  /* width:38%; */
+  gap: 0.5rem;
+  width: 100%;
 }
 .title-head {
   font-size: 5em;
@@ -31,104 +28,36 @@
   color: white;
   outline: none;
 }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .title-head {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   .title-discrip {
     font-size: 1.2rem;
   }
   .registration {
-    margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 680px) {
   .title-head {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
   }
   .title-discrip {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   .registration {
-    margin-top: 1rem;
-    font-size: 1.2rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .title-head {
-    font-size: 2.8rem;
-  }
-  .title-discrip {
-    font-size: 1rem;
-  }
-  .registration {
-    margin-top: 1rem;
-    font-size: 1.2rem;
-  }
-  #title-cap {
-    left: 5%;
+    font-size: 1.05rem;
   }
 }
 @media screen and (max-width: 480px) {
   .title-head {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .title-discrip {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
   .registration {
-    margin-top: 1rem;
-    font-size: 1.1rem;
-  }
-  #title-cap {
-    left: 5%;
-  }
-}
-@media screen and (max-width: 425px) {
-  .title-head {
-    font-size: 2rem;
-  }
-  .title-discrip {
-    font-size: 0.6rem;
-  }
-  .registration {
-    margin-top: 1rem;
-    font-size: 0.8rem;
-  }
-  #title-cap {
-    left: 7%;
-  }
-}
-@media screen and (max-width: 375px) {
-  .title-head {
-    font-size: 1.8rem;
-  }
-  .title-discrip {
-    font-size: 0.56rem;
-  }
-  .registration {
-    margin-top: 1rem;
-    font-size: 0.8rem;
-  }
-  #title-cap {
-    left: 7%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .title-head {
-    font-size: 1.8rem;
-  }
-  .title-discrip {
-    font-size: 0.56rem;
-  }
-  .registration {
-    margin-top: 1rem;
-    font-size: 0.8rem;
-  }
-  #title-cap {
-    left: 7%;
+    font-size: 0.7rem;
   }
 }

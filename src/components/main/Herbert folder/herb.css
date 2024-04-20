@@ -20,10 +20,7 @@
   color: #ff7b00;
 }
 
-@media screen and (max-width: 1280px) {
-  .herbed {
-    height: 600px;
-  }
+@media screen and (max-width: 1200px) {
   .herb-dis {
     font-size: 1.7rem;
   }
@@ -31,37 +28,29 @@
 
 @media screen and (max-width: 1024px) {
   .herb-dis {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     word-wrap: break-word;
   }
-  .herbed {
-    height: 600px;
-  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .herb-dis {
-    font-size: 1.3rem;
-  }
-  .herbed {
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .herb-dis {
-    font-size: 1.2rem;
-  }
-  .herbed {
-    height: 500px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .herb-dis {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .herbert-name {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+  .herbed {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .herb-dis {
+    font-size: 0.7rem;
+  }
+  .herbert-name {
+    font-size: 1.7rem;
   }
   .herbed {
     height: 400px;
@@ -69,48 +58,12 @@
 }
 @media screen and (max-width: 480px) {
   .herb-dis {
-    font-size: 0.7rem;
-  }
-  .herbert-name {
-    font-size: 1.8rem;
-  }
-  .herbed {
-    height: 400px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .herbed {
-    height: 300px;
-  }
-  .herb-dis {
-    font-size: 0.6rem;
-    word-wrap: break-word;
-  }
-  .herbert-name {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (max-width: 375px) {
-  .herbed {
-    height: 300px;
-  }
-  .herb-dis {
     font-size: 0.5rem;
-    word-wrap: break-word;
   }
   .herbert-name {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
-}
-@media screen and (max-width: 320px) {
   .herbed {
     height: 300px;
-  }
-  .herb-dis {
-    font-size: 0.5rem;
-    word-wrap: break-word;
-  }
-  .herbert-name {
-    font-size: 1.1rem;
   }
 }

@@ -1,5 +1,5 @@
 .links-flex-footer {
-  width: 20%;
+  width: 25%;
 }
 .l-tag {
   text-transform: uppercase;
@@ -11,12 +11,12 @@
   font-family: "Montserrat", sans-serif;
   list-style: none;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: 0.6em;
 }
 @media screen and (max-width: 1024px) {
   .l-c {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .l-tag {
     font-size: 1.5rem;
@@ -28,19 +28,7 @@
   }
 }
 
-
-@media screen and (max-width: 425px) {
-  .links-flex-footer {
-    width: 100%;
-  }
-  .l-c {
-    font-size: 0.7rem;
-  }
-  .l-tag {
-    font-size: 1.3rem;
-  }
-}
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .links-flex-footer {
     width: 100%;
   }
@@ -49,16 +37,5 @@
   }
   .l-tag {
     font-size: 1.2rem;
-  }
-}
-@media screen and (max-width: 320px) {
-  .links-flex-footer {
-    width: 100%;
-  }
-  .l-c {
-    font-size: 0.5rem;
-  }
-  .l-tag {
-    font-size: 1.1rem;
   }
 }

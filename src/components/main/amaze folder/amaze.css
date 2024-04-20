@@ -40,49 +40,49 @@
 }
 @media screen and (max-width: 1024px) {
   .amaze-title {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .amaze-para {
-    font-size: 2.1rem;
-  }
-  .amaze-read {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .amaze-title {
-    font-size: 2.5rem;
-  }
-  .amaze-para {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   .amaze-read {
     font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .amaze-title {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
   .amaze-para {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .amaze-read {
     font-size: 1.1rem;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .inner-amaze {
-    padding: 0 1.8rem;
-  }
+@media screen and (max-width: 768px) {
   .amaze-title {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
   .amaze-para {
     font-size: 1.2rem;
+  }
+  .amaze-read {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .inner-amaze {
+    padding: 0 1.1rem;
+  }
+  .amaze-title {
+    font-size: 1.8rem;
+  }
+  .amaze-para {
+    font-size: 0.95rem;
   }
   .amaze-read {
     font-size: 1rem;
@@ -90,49 +90,13 @@
 }
 
 @media screen and (max-width: 480px) {
-  .inner-amaze {
-    padding: 0 1.8rem;
-  }
   .amaze-title {
-    font-size: 1.7rem;
-  }
-  .amaze-para {
-    font-size: 1rem;
-  }
-  .amaze-read {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 425px) {
-  .amaze-title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .amaze-para {
     font-size: 0.7rem;
   }
   .amaze-read {
-    font-size: 0.7rem;
-  }
-}
-@media screen and (max-width: 375px) {
-  .amaze-title {
-    font-size: 1.4rem;
-  }
-  .amaze-para {
     font-size: 0.6rem;
-  }
-  .amaze-read {
-    font-size: 0.6rem;
-  }
-}
-@media screen and (max-width: 320px) {
-  .amaze-title {
-    font-size: 1.2rem;
-  }
-  .amaze-para {
-    font-size: 0.5rem;
-  }
-  .amaze-read {
-    font-size: 0.5rem;
   }
 }
